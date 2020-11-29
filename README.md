@@ -22,5 +22,15 @@ Zvykněte si všechny příkazy spouštět přes `sudo`. Po rozbalení instalač
 Po restartu by vás měla přivítat příkazová řádka a distribuce přes celou kapacitu sd karty.
 Teď je na čase se podívat na na Retropie, konfiguraci spustíte z příkazové řádky z adresáře `RetroPie-Setup` příkazem `sudo ./retropie_setup.sh`:
 1. aktualizaci včetně všech balíčků systému
-2. odinstalace  Retropie
+2. odinstalace  Retropie, potvrdíme smazání adresáře s ROM a BIOS, ale zakážeme odinstalova balíčky systému!
+
 ![IMAGE](1_retropie_setup.PNG)
+
+Aktualizace bo potřebujeme, aby se nainstalovaly správně všechny závislosti a odinstalace, abychom se zbavili veškerého balastu. Mezi aktualizací a odinstalací doporučuji provést restart, možná se nainstalovalo nové jádro.
+Všechny tyto adresáře by měly být prázdné nebo by neměly po odinstalaci existovat:
+- `/opt/retropie`
+- `~/.config/~retroarch`
+- `~/RetroPie`
+Pokud exsistují, smazat. Nakonec smažte i adresář s instalačním skriptem `~/RetroPie-Setup`.
+
+A můžeme začít "novou" instalací, z Githubu si stáhneme nejnovější verzi instalačních skriptů - (https://github.com/RetroPie/RetroPie-Setup) a spustíme Basic install.
