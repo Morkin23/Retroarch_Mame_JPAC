@@ -16,3 +16,11 @@ Pro instalaci se pak nabízí trojice připravených distribucí Retropie, Lakka
 
 Je pravděpodobné, že ostatní distribuce taky umožní ruční editaci konfiguráků, ale s instalací jinak než pomocí předpřipravených obrazů je to horší. 
 ## Instalace
+Zvykněte si všechny příkazy spouštět přes `sudo`. Po rozbalení instalačního obrazu na SD kartu nezapoměňte přes `raspiconfig`:
+- rozšíření ext4 partice na celou sd kartu, jedině tak bude možné použít její plnou kapacitu
+- nastavit automatické přihlášení uživatele `pi`
+Po restartu by vás měla přivítat příkazová řádka a distribuce přes celou kapacitu sd karty.
+Teď je na čase se podívat na na Retropie, konfiguraci spustíte z příkazové řádky z adresáře `RetroPie-Setup` příkazem `sudo ./retropie_setup.sh`:
+1. aktualizaci včetně všech balíčků systému
+2. odinstalace  Retropie
+!(File:1 retropie setup.PNG)
