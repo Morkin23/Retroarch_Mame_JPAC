@@ -23,4 +23,4 @@ Po restartu by vás měla přivítat příkazová řádka a distribuce přes cel
 Teď je na čase se podívat na na Retropie, konfiguraci spustíte z příkazové řádky z adresáře `RetroPie-Setup` příkazem `sudo ./retropie_setup.sh`:
 1. aktualizaci včetně všech balíčků systému
 2. odinstalace  Retropie
-!(1_retropie_setup.PNG)
+![IMAGE](1_retropie_setup.PNG)
