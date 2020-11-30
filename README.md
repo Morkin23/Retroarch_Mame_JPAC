@@ -70,6 +70,37 @@ Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfig
 </inputList>
 `
 
-Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru [vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). 
-
-
+Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru [vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). S důrazem na:
+- ovládání:
+`
+input_player1_a = "alt"
+input_player1_b = "ctrl"
+input_player1_y = "shift"
+input_player1_x = "space"
+input_player1_start = "num1"
+input_player1_select = "num5"
+input_player1_l = "z"
+input_player1_r = "x"
+input_player1_left = "left"
+input_player1_right = "right"
+input_player1_up = "up"
+input_player1_down = "down"
+`
+- zapnutí funkce rewind:
+`
+rewind_enable = "true"
+`
+- vypnutí hotkey atd:
+`
+global_core_options = "true"
+input_enable_hotkey = "nul"
+auto_remaps_enable = "true"
+rgui_aspect_ratio_lock = "2"
+menu_show_restart_retroarch = "false"
+xmb_show_add = "false"
+xmb_show_history = "false"
+xmb_show_images = "false"
+xmb_show_music = "false"
+xmb_shadows_enable = "false"
+quit_press_twice = "false"
+`
