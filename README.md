@@ -33,4 +33,14 @@ Všechny tyto adresáře by měly být prázdné nebo by neměly po odinstalaci 
 - `~/RetroPie`
 Pokud exsistují, smazat. Nakonec smažte i adresář s instalačním skriptem `~/RetroPie-Setup`.
 
-A můžeme začít "novou" instalací, z Githubu si stáhneme nejnovější verzi instalačních skriptů - (https://github.com/RetroPie/RetroPie-Setup) a spustíme Basic install.
+A můžeme začít "novou" instalací, z Githubu si stáhneme nejnovější verzi instalačních skriptů - (https://github.com/RetroPie/RetroPie-Setup) a spustíme Basic install. Pokud máme RPi nebo jinou podporovanou distribuci, nainstaluje se Retropie a emulátory z binárek, jinak se musí zkompilovat. Vše proběhne automaticky, jen kompilace je násobně pomalejší.
+
+Pak už zbývá jen nainstalovat [lr-mame2003-plus](https://docs.libretro.com/library/mame2003_plus/) jádro, najdede ho v sekci experimentálních balíčků. 
+
+*zde se dá stručně pohovořit o jádře lr-mame2003-plus*
+## Konfigurace
+Automatický konfigurátot dělá paseku v konfiguračních souborech a tak je lepší nastavení doplnit ručně, proto děláme ty zálohy! V tomto kroku by se ještě neměl Emulationstation spouštět automaticky po startu systému. Budeme ho zatím spouštět ručně příkazem `emulationstation`.
+
+
+
+
