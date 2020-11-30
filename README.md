@@ -70,6 +70,6 @@ Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfig
 </inputList>
 `
 
-Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru ![FILE](vzory/retroarch.cfg.all). 
+Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru ![vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). 
 
 
