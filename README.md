@@ -47,7 +47,7 @@ Nyní můžeme spustit Emulationstation a provést prvotní nastavení virtuáln
 
 Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfigurace se propíše i do globálního konfiguračního souboru pro Retroarch - `/opt/retropie/all/retroarch.cfg`. Takto může pak vypadat soubor `es_input.cfg`:
 
-`
+```
 <?xml version="1.0"?>
 <inputList>
   <inputAction type="onfinish">
@@ -68,11 +68,11 @@ Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfig
     <input name="a" type="key" id="1073742050" value="1"/>
   </inputConfig>
 </inputList>
-`
+```
 
 Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru [vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). S důrazem na:
 - ovládání:
-`
+```
 input_player1_a = "alt"
 input_player1_b = "ctrl"
 input_player1_y = "shift"
@@ -85,13 +85,13 @@ input_player1_left = "left"
 input_player1_right = "right"
 input_player1_up = "up"
 input_player1_down = "down"
-`
+```
 - zapnutí funkce rewind:
-`
+```
 rewind_enable = "true"
-`
+```
 - vypnutí hotkey atd:
-`
+```
 global_core_options = "true"
 input_enable_hotkey = "nul"
 auto_remaps_enable = "true"
@@ -103,4 +103,4 @@ xmb_show_images = "false"
 xmb_show_music = "false"
 xmb_shadows_enable = "false"
 quit_press_twice = "false"
-`
+```
