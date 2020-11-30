@@ -41,6 +41,35 @@ Pak už zbývá jen nainstalovat [lr-mame2003-plus](https://docs.libretro.com/li
 ## Konfigurace
 Automatický konfigurátot dělá paseku v konfiguračních souborech a tak je lepší nastavení doplnit ručně, proto děláme ty zálohy! V tomto kroku by se ještě neměl Emulationstation spouštět automaticky po startu systému. Budeme ho zatím spouštět ručně příkazem `emulationstation`.
 
+Zazálohujeme soubor s globální konfigurací `/opt/retropie/all/retroarch.cfg`.
 
+Nyní můžeme spustit Emulationstation a provést prvotní nastavení virtuálního ovladače RetroPad, tato konfigurace se spustí automaticky. Při mém setupu nastavuju D-PAD na šipky a tlačítka A, B, X, Y, R, L na tlačítka 1-6. Start na P1start a Select na klávesu 5, použita funkce shift. Ostatní tlačítka včetně hotkey přeskočit. Jak je standardně nastavený JPAC a jak funguje shift se dá dohledat tady: (https://www.ultimarc.com/control-interfaces/j-pac-en/j-pac-heritage-ps-2-version/). 
+
+Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfigurace se propíše i do globálního konfiguračního souboru pro Retroarch - `/opt/retropie/all/retroarch.cfg`. Takto může pak vypadat soubor `es_input.cfg`:
+
+`
+<?xml version="1.0"?>
+<inputList>
+  <inputAction type="onfinish">
+    <command>/opt/retropie/supplementary/emulationstation/scripts/inputconfiguration.sh</command>
+  </inputAction>
+  <inputConfig type="keyboard" deviceName="Keyboard" deviceGUID="-1">
+    <input name="pageup" type="key" id="122" value="1"/>
+    <input name="up" type="key" id="1073741906" value="1"/>
+    <input name="left" type="key" id="1073741904" value="1"/>
+    <input name="select" type="key" id="53" value="1"/>
+    <input name="right" type="key" id="1073741903" value="1"/>
+    <input name="pagedown" type="key" id="120" value="1"/>
+    <input name="y" type="key" id="1073742049" value="1"/>
+    <input name="x" type="key" id="32" value="1"/>
+    <input name="down" type="key" id="1073741905" value="1"/>
+    <input name="start" type="key" id="49" value="1"/>
+    <input name="b" type="key" id="1073742048" value="1"/>
+    <input name="a" type="key" id="1073742050" value="1"/>
+  </inputConfig>
+</inputList>
+`
+
+Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru ![FILE](vzory/retroarch.cfg.all). 
 
 
