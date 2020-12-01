@@ -1,7 +1,7 @@
 # Retroarch_Mame_JPAC
 Cílem je zaznamena a uchovat pro pzdější použití vše co jsem se naučil při konfiguraci emulátoru herního automatu.
 ## Hardware
-- arcade automat libovolné konfigurace. V mém případě to je JAMMA konektor, 2xjoystick, 2x šest tlačítek, P1 Start, P2 Start a jedno tlačítko navíc.
+- arcade automat libovolné konfigurace. V mém případě to je JAMMA konektor, 2xjoystick, 2x šest tlačítek, P1 Start, P2 Start a jedno tlačítko navíc, namapované jako P1SW7.
 - LCD 4:3 *doplnit model LCD*. Můžete zvolit jiný model, ale dobré je dodržet rozměr 4:3, kvůli zachování stejného poměru stran jako má původní arcade monitor. 
 - Raspberry PI3. Má dostatečný výkon pro většinu her. Dá se použít i libovolné pc, jedno jestli Linux nebo Windows.
 - Ultimarc J-PAC, mám starší verzi z PS/2 konektorem. Dá se samožrejmě použít jakýkoliv převodník. Doporučuji ale převodník typu USB2JAMMA, nepřijdete tak o možnost zahrát si původní hru z pcb.
@@ -118,3 +118,23 @@ input_toggle_slowmotion = "left"
 #include "/opt/retropie/configs/all/retroarch.cfg"
 
 ```
+Jak bylo psáno na začátku, zapojil jsem 1 tlačítko navíc, které mi slouží jako hotkey. Po stlačení kombinace hotkey a příslušné klávesy se provede jedna z akcí:
+```
+hotkey+escape - ukončení hry
+hotkey+F1 - konfigurační okno retroarch, zde se pak dají nastavit vychytávky pro jednotlivé hry zvlášť
+hotkey+šipka vpravo - pauza
+hotkey+šipka vlevo - zpomalení hry, dobré pro trénink obtížných pasáží
+hotkey+alt - rewind, vrátí postup hrou v čase, geniální
+```
+
+Jen na ukázku balast který vytvoří konfigurátot, když ho necháte dělat svou práci - [vzory/retroarch.cfg.arcade.scrap](vzory/retroarch.cfg.arcade.scrap) :).
+
+Poslední věc, než znovu spustíme emulationstation, je nastavení pro jádro, které umožní kromě vstupů od virtuálního ovladače Retropad i simultánní vstup z klávesnice. Není to sice nutné pokud pečlivě namapujete klávesy, ale pokud chceme naplno využít možnosti Retroarchu, tak je to myslím nezbytné. Vše se nastavuje v souboru `/opt/retropie/all/retroarch-core-options.cfg` a jedná se o přidání následujícího řádku:
+```
+mame2003-plus_input_interface = "simultaneous"
+```
+## ToDo
+- mapování hotkeys bez pomoci klávesnice
+- shaders
+- 2 player
+- doplnit odkazy na jednotlivé sekce v originální dokumentaci
