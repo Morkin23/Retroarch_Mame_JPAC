@@ -70,7 +70,7 @@ Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfig
 </inputList>
 ```
 
-Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru [vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). S důrazem na:
+Vypneme Eulationstation a zkontrolujeme automaticky vygenerovaný soubor `/opt/retropie/all/retroarch.cfg`. Je pravděpodobné, že bude obsahovat spoustu balastu. Obnovte proto zálohu a ručně upravte soubor podle vzoru [vzory/retroarch.cfg.all](vzory/retroarch.cfg.all). S důrazem na:
 - ovládání:
 ```
 input_player1_a = "alt"
@@ -103,4 +103,18 @@ xmb_show_images = "false"
 xmb_show_music = "false"
 xmb_shadows_enable = "false"
 quit_press_twice = "false"
+```
+V dalším kroku pak nastavíme parametry pro samotné jádro `lr-mame2003-plus`. Tyto parametry se nastavují s souboru `/opt/retropie/arcade/retroarch.cfg`. Stačí upravit podle vzoru [vzory/retroarch.cfg.arcade](vzory/retroarch.cfg.arcade) nebo ručně doplnit tyto řádky:
+```
+input_remapping_directory = "/opt/retropie/configs/arcade/"
+
+input_enable_hotkey = "c"
+input_exit_emulator = "escape"
+input_menu_toggle = "f1"
+input_pause_toggle = "right"
+input_rewind = "alt"
+input_toggle_slowmotion = "left"
+
+#include "/opt/retropie/configs/all/retroarch.cfg"
+
 ```

@@ -1,0 +1,10 @@
+input_remapping_directory = "/opt/retropie/configs/arcade/"
+
+input_enable_hotkey = "c"
+input_exit_emulator = "escape"
+input_menu_toggle = "f1"
+input_pause_toggle = "right"
+input_rewind = "alt"
+input_toggle_slowmotion = "left"
+
+#include "/opt/retropie/configs/all/retroarch.cfg"
