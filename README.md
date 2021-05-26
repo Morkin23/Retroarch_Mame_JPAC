@@ -136,12 +136,10 @@ mame2003-plus_input_interface = "simultaneous"
 ## J-PAC klávesy
 J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou hotkey a mapování jaké má Retropie:
 
-| Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY 
-| -------- | ----- | ------------ | ---------------- | ------
-| R arrow | 1 right | R arrow | TAB | pause toggle
-| L arrow | 1 left | L arrow | Enter | slow motion
-
-
+| Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY |
+| -------- | ----- | ------------ | ---------------- | ------ |
+| R arrow | 1 right | R arrow | TAB | pause toggle |
+| L arrow | 1 left | L arrow | Enter | slow motion |
 | U arrow | 1 up | U arrow | Tilde |   |
 | D arrow | 1 down | D arrow | P |   |
 | B | 1 B1 | L-ctrl | 5(Coin) |  |
@@ -182,8 +180,3 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 ## ToDo
 26.5.2021 změna tlačítka pro EXIT z ESC na Q. Z důvodu, že J-PAC neposílá ESC sekvenci při aktivním hotkey tlačítku.
 26.5.2021 doplněna tabulka J-PAC posílaných kláves
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
