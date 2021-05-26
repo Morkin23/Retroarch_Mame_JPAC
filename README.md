@@ -182,3 +182,8 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 ## ToDo
 26.5.2021 změna tlačítka pro EXIT z ESC na Q. Z důvodu, že J-PAC neposílá ESC sekvenci při aktivním hotkey tlačítku.
 26.5.2021 doplněna tabulka J-PAC posílaných kláves
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
