@@ -139,6 +139,8 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 | Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY |
 |----------|------|-------|-------|------------------|--------|
 | R arrow | 1 right | R arrow | TAB | pause toggle |
+
+
 | L arrow | 1 left | L arrow | Enter | slow motion |
 | U arrow | 1 up | U arrow | Tilde |   |
 | D arrow | 1 down | D arrow | P |   |
