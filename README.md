@@ -109,7 +109,7 @@ V dalším kroku pak nastavíme parametry pro samotné jádro `lr-mame2003-plus`
 input_remapping_directory = "/opt/retropie/configs/arcade/"
 
 input_enable_hotkey = "c"
-input_exit_emulator = "escape"
+input_exit_emulator = "q"
 input_menu_toggle = "f1"
 input_pause_toggle = "right"
 input_rewind = "alt"
@@ -120,7 +120,7 @@ input_toggle_slowmotion = "left"
 ```
 Jak bylo psáno na začátku, zapojil jsem 1 tlačítko navíc, které mi slouží jako hotkey. Po stlačení kombinace hotkey a příslušné klávesy se provede jedna z akcí:
 ```
-hotkey+escape - ukončení hry
+hotkey+q - ukončení hry
 hotkey+F1 - konfigurační okno retroarch, zde se pak dají nastavit vychytávky pro jednotlivé hry zvlášť
 hotkey+šipka vpravo - pauza
 hotkey+šipka vlevo - zpomalení hry, dobré pro trénink obtížných pasáží
@@ -138,3 +138,5 @@ mame2003-plus_input_interface = "simultaneous"
 - shaders
 - 2 player
 - doplnit odkazy na jednotlivé sekce v originální dokumentaci
+## ToDo
+26.5.2021 změna tlačítka pro EXIT z ESC na Q. Z důvodu, že J-PAC neposílá ESC sekvenci při aktivním hotkey tlačítku.
