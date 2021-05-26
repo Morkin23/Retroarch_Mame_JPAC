@@ -136,9 +136,9 @@ mame2003-plus_input_interface = "simultaneous"
 ## J-PAC klávesy
 J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou hotkey a mapování jaké má Retropie:
 
-| Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY |
-|----------|------|-------|-------|------------------|--------|
-| R arrow | 1 right | R arrow | TAB | pause toggle |
+| Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY 
+|----------|------|-------|-------|------------------|--------
+| R arrow | 1 right | R arrow | TAB | pause toggle
 
 
 | L arrow | 1 left | L arrow | Enter | slow motion |
