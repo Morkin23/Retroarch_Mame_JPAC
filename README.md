@@ -45,7 +45,7 @@ Zazálohujeme soubor s globální konfigurací `/opt/retropie/all/retroarch.cfg`
 
 Nyní můžeme spustit Emulationstation a provést prvotní nastavení virtuálního ovladače RetroPad, tato konfigurace se spustí automaticky. Při mém setupu nastavuju D-PAD na šipky a tlačítka A, B, X, Y, R, L na tlačítka 1-6. Start na P1start a Select na klávesu 5, použita funkce shift. Ostatní tlačítka včetně hotkey přeskočit. Jak je standardně nastavený JPAC a jak funguje shift se dá dohledat tady: (https://www.ultimarc.com/control-interfaces/j-pac-en/j-pac-heritage-ps-2-version/). 
 
-Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfigurace se propíše i do globálního konfiguračního souboru pro Retroarch - `/opt/retropie/all/retroarch.cfg`. Takto může pak vypadat soubor `es_input.cfg`:
+Vygeneruje se soubor `/opt/reteropie/all/emulationstation/es_input.cfg` a konfigurace se propíše i do globálního konfiguračního souboru pro Retroarch - `/opt/retropie/all/retroarch.cfg`. Takto může pak vypadat soubor `es_input.cfg`, hodnota id je kód klávesy knihovny SDL v dec:
 
 ```
 <?xml version="1.0"?>
