@@ -1,8 +1,8 @@
 # Retroarch_Mame_JPAC
-Cílem je zaznamena a uchovat pro pzdější použití vše co jsem se naučil při konfiguraci emulátoru herního automatu.
+Cílem je zaznamena a uchovat pro pozdější použití vše co jsem se naučil při konfiguraci emulátoru herního automatu.
 ## Hardware
 - arcade automat libovolné konfigurace. V mém případě to je JAMMA konektor, 2xjoystick, 2x šest tlačítek, P1 Start, P2 Start a jedno tlačítko navíc, namapované jako P1SW7.
-- LCD 4:3 *doplnit model LCD*. Můžete zvolit jiný model, ale dobré je dodržet rozměr 4:3, kvůli zachování stejného poměru stran jako má původní arcade monitor. 
+- LCD 4:3 Benq BL702A. Můžete zvolit jiný model, ale NUTNÉ je dodržet rozměr 4:3, kvůli zachování stejného poměru stran jako má původní arcade monitor. 4:3 se ve větší úhlopříčkách než je 17 palců nedělá.
 - Raspberry PI3. Má dostatečný výkon pro většinu her. Dá se použít i libovolné pc, jedno jestli Linux nebo Windows.
 - Ultimarc J-PAC, mám starší verzi z PS/2 konektorem. Dá se samožrejmě použít jakýkoliv převodník. Doporučuji ale převodník typu USB2JAMMA, nepřijdete tak o možnost zahrát si původní hru z pcb.
 ## Software
@@ -19,6 +19,7 @@ Je pravděpodobné, že ostatní distribuce taky umožní ruční editaci konfig
 Zvykněte si všechny příkazy spouštět přes `sudo`. Po rozbalení instalačního obrazu na SD kartu nezapoměňte přes `raspiconfig`:
 - rozšíření ext4 partice na celou sd kartu, jedině tak bude možné použít její plnou kapacitu
 - nastavit automatické přihlášení uživatele `pi`
+
 Po restartu by vás měla přivítat příkazová řádka a distribuce přes celou kapacitu sd karty.
 Teď je na čase se podívat na na Retropie, konfiguraci spustíte z příkazové řádky z adresáře `RetroPie-Setup` příkazem `sudo ./retropie_setup.sh`:
 1. aktualizaci včetně všech balíčků systému
@@ -31,6 +32,7 @@ Všechny tyto adresáře by měly být prázdné nebo by neměly po odinstalaci 
 - `/opt/retropie`
 - `~/.config/~retroarch`
 - `~/RetroPie`
+
 Pokud exsistují, smazat. Nakonec smažte i adresář s instalačním skriptem `~/RetroPie-Setup`.
 
 A můžeme začít "novou" instalací, z Githubu si stáhneme nejnovější verzi instalačních skriptů - (https://github.com/RetroPie/RetroPie-Setup) a spustíme Basic install. Pokud máme RPi nebo jinou podporovanou distribuci, nainstaluje se Retropie a emulátory z binárek, jinak se musí zkompilovat. Vše proběhne automaticky, jen kompilace je násobně pomalejší.
