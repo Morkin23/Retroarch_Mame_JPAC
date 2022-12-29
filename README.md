@@ -137,7 +137,10 @@ mame2003-plus_input_interface = "simultaneous"
 ```
 ## Nastavení i pro druhého hráče
 Takto vypadá kompletní mapa, podle které J-PAC posílá jednotlivé klávesy pro 1P nebo 2P:
+
 ![IMAGE](2_keyboard.jpg)
+
+Na automatu je pro každého hráče jen 6 tlačítek a tak tlačítka 1 B7, 1 B8, 2 B7 a 2 B8 nebudou využitá. Dají se použít, pokud budou k dispozici spínače, pro namapování nějaké jiné funkce, např. 1 B7 mám namapováno jako HOTKEY.
 
 ## J-PAC klávesy
 J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou hotkey a mapování jaké má Retropie:
