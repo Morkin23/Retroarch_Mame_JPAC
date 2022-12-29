@@ -135,6 +135,10 @@ Poslední věc, než znovu spustíme emulationstation, je nastavení pro jádro,
 ```
 mame2003-plus_input_interface = "simultaneous"
 ```
+## Nastavení i pro druhého hráče
+Takto vypadá kompletní mapa, podle které J-PAC posílá jednotlivé klávesy pro 1P nebo 2P:
+![IMAGE](2_keyboard.JPG)
+
 ## J-PAC klávesy
 J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou hotkey a mapování jaké má Retropie:
 
