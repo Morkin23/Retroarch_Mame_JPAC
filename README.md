@@ -168,8 +168,8 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 | 2P | 2 B4 | W |  |  |
 | 2P | 2 B5 | I | |  |  |
 | 2P | 2 B6 | K |  |  |
-| 2P | 2 B7 | J |  |  |
-| 2P | 2 B8 | L |  |  |
+|  | 2 B7 | J |  |  |
+|  | 2 B8 | L |  |  |
 |  | Coin 1 | 5 |  |  |
 |  | Coin2 | 5 |  |  |
 |  | Service | F1 |  |  |
