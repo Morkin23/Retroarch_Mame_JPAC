@@ -144,32 +144,32 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 
 | Retropie | INPUT | CODE(normal) | CODE(Star1 held) | HOTKEY |
 | -------- | ----- | ------------ | ---------------- | ------ |
-| R arrow | 1 right | R arrow | TAB | pause toggle |
-| L arrow | 1 left | L arrow | Enter | slow motion |
-| U arrow | 1 up | U arrow | Tilde |   |
-| D arrow | 1 down | D arrow | P |   |
-| B | 1 B1 | L-ctrl | 5(Coin) |  |
-| A | 1 B2 | L-alt |  | rewind |
-| X | 1 B3 | space |  |  |
-| Y | 1 B4 | L-shift |  |  |
-| L | 1 B5 | Z |  |  |
-| R | 1 B6 | X |  |  |
+| 1P R arrow | 1 right | R arrow | TAB | pause toggle |
+| 1P L arrow | 1 left | L arrow | Enter | slow motion |
+| 1P U arrow | 1 up | U arrow | Tilde |   |
+| 1P D arrow | 1 down | D arrow | P |   |
+| 1P B | 1 B1 | L-ctrl | 5(Coin) |  |
+| 1P A | 1 B2 | L-alt |  | rewind |
+| 1P X | 1 B3 | space |  |  |
+| 1P Y | 1 B4 | L-shift |  |  |
+| 1P L | 1 B5 | Z |  |  |
+| 1P R | 1 B6 | X |  |  |
 | HOTKEY | 1 B7 | C |  |  |
 |  | 1 B8 | V |  |  |
 | Start | Start1 | 1 |  |  |
 | Select | Start2 | 2 | Esc |  |
-|  | 2 right | G |  |  |
-|  | 2 left | D |  |  |
-|  | 2 up | R |  |  |
-|  | 2 down | F |  |  |
-|  | 2 B1 | A |  |  |
-|  | 2 B2 | S |  |  |
-|  | 2 B3 | Q |  | escape |
-|  | 2 B4 | W |  |  |
-|  | 2 B5 | I | |  |  |
-|  | 2 B6 | K |  |  |
-|  | 2 B7 | J |  |  |
-|  | 2 B8 | L |  |  |
+| 2P | 2 right | G |  |  |
+| 2P | 2 left | D |  |  |
+| 2P | 2 up | R |  |  |
+| 2P | 2 down | F |  |  |
+| 2P | 2 B1 | A |  |  |
+| 2P | 2 B2 | S |  |  |
+| 2P | 2 B3 | Q |  | escape |
+| 2P | 2 B4 | W |  |  |
+| 2P | 2 B5 | I | |  |  |
+| 2P | 2 B6 | K |  |  |
+| 2P | 2 B7 | J |  |  |
+| 2P | 2 B8 | L |  |  |
 |  | Coin 1 | 5 |  |  |
 |  | Coin2 | 5 |  |  |
 |  | Service | F1 |  |  |
