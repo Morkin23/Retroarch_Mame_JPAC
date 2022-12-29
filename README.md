@@ -161,16 +161,16 @@ J-PAC posílá do počítače tyto klávesy + doplněny speciality se stisknutou
 |  | 1 B8 | V |  |  |
 | Start | Start1 | 1 |  |  |
 | Select | Start2 | 2 | Esc |  |
-| 2P | 2 right | G |  |  |
-| 2P | 2 left | D |  |  |
-| 2P | 2 up | R |  |  |
-| 2P | 2 down | F |  |  |
-| 2P | 2 B1 | A |  |  |
-| 2P | 2 B2 | S |  |  |
-| 2P | 2 B3 | Q |  | escape |
-| 2P | 2 B4 | W |  |  |
-| 2P | 2 B5 | I | |  |  |
-| 2P | 2 B6 | K |  |  |
+| 2P R arrow | 2 right | G |  |  |
+| 2P L arrow | 2 left | D |  |  |
+| 2P U arrow | 2 up | R |  |  |
+| 2P D arrow | 2 down | F |  |  |
+| 2P B | 2 B1 | A |  |  |
+| 2P A | 2 B2 | S |  |  |
+| 2P X | 2 B3 | Q |  | escape |
+| 2P Y | 2 B4 | W |  |  |
+| 2P L | 2 B5 | I | |  |  |
+| 2P R | 2 B6 | K |  |  |
 |  | 2 B7 | J |  |  |
 |  | 2 B8 | L |  |  |
 |  | Coin 1 | 5 |  |  |
